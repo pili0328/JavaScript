@@ -39,25 +39,12 @@ for(let i = 2; i <= 12; i++ ){
 
 /*voy a hacer una funcion que vea si con la edad que pone tendria permiso para entrar*/
 
-//ejemplo
-/*
-let edad = parseInt(prompt("ingrese su edad"));
-
-    if(edad >= 21){
-        alert("bienvenido a nuestra pagina, un placer tenerte aqui");
-        break;
-    }else if(edad >= 15){
-        alert("se requiere autorizacion de tus tutores");
-        break;
-    }else{
-        alert("no se te permite comprar");
-        break;
-    }
-*/
-
-function ingreso(edad){
+/*function ingreso(edad){
     return edad;
-}
+}*/
+
+// cambiar esto e intentar hacer una calculadora?  QSY
+/*
 let edad = parseInt(prompt("Ingrese su edad"));
     if(edad >= 21){
         alert("bienvenido a nuestra pagina, un placer tenerte aqui");
@@ -68,6 +55,6 @@ let edad = parseInt(prompt("Ingrese su edad"));
     }else{
         alert("no se te permite comprar");
        
-    }
+    }*/
 //ingreso("Bienvenida", "a nuestro local");
 //ingreso("Lo sentimos", "no se te permite el paso");
