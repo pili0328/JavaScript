@@ -1,3 +1,5 @@
+/*
+
 const productos = [
   {id: 1, nombre: "blazer", precio: "10000"},
   {id: 2, nombre: "cargo", precio: "8000"},
@@ -32,4 +34,6 @@ let edad = parseInt(prompt("Ingrese su edad"));
 
 const nombres = productos.map(item => item.nombre);
 console.log(nombres);
+
+*/
 

@@ -55,6 +55,30 @@ let edad = parseInt(prompt("Ingrese su edad"));
     }else{
         alert("no se te permite comprar");
        
-    }*/
+    }
+    
+      let boton = document.getElementById("boton");
+
+  boton.addEventListener("click", () => {
+    Swal.fire({
+      title: "Está seguro de eliminar el producto?",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonText: "Sí, seguro",
+      cancelButtonText: "No, no quiero",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        //codigo personalizado a ejecutar
+  
+        Swal.fire({
+          title: "Borrado!",
+          icon: "success",
+          text: "El archivo ha sido borrado",
+        });
+      }
+    });
+  });
+    
+    */
 //ingreso("Bienvenida", "a nuestro local");
 //ingreso("Lo sentimos", "no se te permite el paso");
