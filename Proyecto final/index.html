@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--boostrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!--estilos-->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!--link de aos-->
+    <link  href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Document</title>
+</head>
+<script reel="stylesheet" src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+    </script>
+<body class="col-md-12 body">
+
+
+<section class=" d-flex justify-content-center justify-content-evenly aling-items-center">
+
+    <div class="card text-center espacio">
+        <div class="card-header registrarse" id="div"> Registrarse </div>
+    <div class=" card-body row m-3 ">
+        <div class="col">
+
+    <form  method="post" id="formulario">
+
+        <div class="username col-md-12 mb-3" id="divForm">
+            <label class="form-label card-title text-black"> Email</label>
+            <input  class="form-control" type="text" required placeholder="usuario">
+        </div>
+
+        <div class="username col-md-12 mb-3">
+            <label class="form-label card-title text-black"> Contraseña</label>
+            <input class="form-control" type="password" required placeholder=" contraseña"> 
+        </div>
+            <input class="iniciar" id="boton" type="submit" value="Iniciar"> 
+        </div>
+    </form>
+
+        </div>
+    </div>
+    </div>
+
+</section>
+
+<!--
+
+-->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
