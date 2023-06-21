@@ -48,7 +48,12 @@ if(usuarioStorage){
 localStorage.clear();*/ 
 
 
-// INTENTAMOS OTRA VEZ
+
+
+//FORMULARIO
+
+
+
 
 let div = document.getElementById("div");
 
@@ -65,6 +70,8 @@ formulario.addEventListener("submit", (e) => {
  
 });
 
+//USO DE UNA LIBRERIA, SWEET ALERT.
+
 let boton = document.getElementById("boton")
 
 boton.addEventListener("click",async ()=>{
@@ -80,14 +87,11 @@ boton.addEventListener("click",async ()=>{
       return !result && 'Debes estar de acuerdo con los terminos y condiciones'
     }
   })
-
-  
   if (accept) {
     Swal.fire('Estoy de acuerdo con los terminos y condiciones :)')
-    window.location.href="simpsons.html"
+    window.location.href="./pages/qsy.html"
   }
 
-  
 });
 
 
